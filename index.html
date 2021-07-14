@@ -15,7 +15,7 @@
     <script>
     let n = prompt(" Enter a odd number that can be divisible by 3, 5, or 7");
     const multiplicationTable =(n)=>{
-      if (3%n===0 || 5%n===0 || 7%n==0) {
+      if (n%3===0 || n%5===0 || n%7==0) {
         for (let i = 1; i <= 20; i++) {
           console.log(i);
           document.write(`${n} x ${i} = ${i * n} <br/>` ) 
